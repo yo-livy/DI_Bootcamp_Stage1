@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+    width: 600px;
+    margin: 0px auto;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li::first-letter {
+    font-size: 150%;
+}
