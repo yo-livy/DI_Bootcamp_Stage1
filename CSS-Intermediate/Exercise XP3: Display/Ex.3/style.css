@@ -1,0 +1,31 @@
+.heading {
+    background-color: green;
+    height: 200px;
+    border: 3px solid black;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+.container {
+    height:200px;
+    width:32%;
+}
+img {
+    width: 100%;
+    height: inherit;
+}
+.left-cont {
+    background-color: orange;
+    border: 3px solid black;
+  }
+  .mid-cont {
+    background-color: red;
+    border: 3px solid black;
+  }
+  .right-cont {
+    background-color: blue;
+    border: 3px solid black;
+  }

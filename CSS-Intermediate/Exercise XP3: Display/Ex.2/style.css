@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 3px solid black;
+    margin: 12px;
+}
+
+.purple {
+    background-color: purple;
+    width: 660px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 500px;
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 500px;
+}
+
+.orange {
+    background-color: orange;
+    width: 200px;
+    height: 500px;
+}

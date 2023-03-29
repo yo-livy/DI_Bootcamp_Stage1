@@ -1,0 +1,34 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
+}
+
+body {
+    margin-left: 10px;
+}
+div {
+    border: 3px solid black;
+}
+.heading {
+    background-color: purple;
+    height: 200px;
+    width: 98.5%;
+    margin-block-end: 30px;
+}
+.col {
+    height: 400px;
+    width: 32%;
+    margin-left: 1%;
+    display: inline-block;
+}
+.col-left {
+    background-color: maroon;
+    margin-left: 0;
+  }
+  .col-mid {
+    background-color: lightgreen;
+  }
+  .col-right {
+    background-color: orange;
+  }
