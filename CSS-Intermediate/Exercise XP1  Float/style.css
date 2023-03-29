@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(100, 100, 128);;
+    margin: 0px;
+}
+
+.wrap {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.nav {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.content {
+    width: 600px;
+    font: size 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(148, 148, 198);
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content ul li {
+    list-style-type: none;
+}
