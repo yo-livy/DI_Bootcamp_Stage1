@@ -11,27 +11,89 @@
     position: fixed;
     margin-right: 0;
     margin-top: 0;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid transparent;
     width: 100%;
     z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.40s ease;
 }
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 20%;
-    margin-right: 50px;
-    margin-top: 20px;
-}
+
 .logo {
     margin-left: 35px;
     margin-top: 20px;
     color: rgb(255, 255, 240);
 }
-a {
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 20%;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 240);
+    transition: all 0.40s ease;
+    padding: 7px 10px;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 240, 0.7);
+    color: black;
+}
+
+body {
+    background-color: rgb(255, 255, 240);
+}
+
+h2.quote {
+    font-size: 40px;
+    text-align: right;
+    color: rgb(255, 255, 240);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 600px;
+    height:fit-content;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 380px;
+}
+
+.home {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('viktorfrankl.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.text {
+    text-align:justify;
+    margin: 50px 20%;
+    font-size: 18px;
+}
+
+.quote2 {
+    text-align: center;
+    padding: 20px;
+    margin: 50px 25%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 240);
 }
