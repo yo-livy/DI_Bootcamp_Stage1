@@ -62,13 +62,14 @@ h2.quote {
     padding: 20px;
     margin-right: 100px;
     margin-top: 380px;
+    border-radius: 0.5rem;
 }
 
 .home {
     display: flex;
     justify-content: right;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-image: url('viktorfrankl.jpeg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -128,14 +129,23 @@ h2.quote {
     align-self:last baseline;
     justify-self:end;
     padding: 7px;
-    color: rgb(255, 255, 240)
+    color: black
 }
+
+i.material-icons-outlined {
+    font-size: 35px;
+    color: rgb(255, 255, 240);
+}
+
 .book:hover {
     scale: 1.1;
     background-color: rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 240);
 }
 
+.form {
+    margin-top: 200px;
+}
 
 footer {
     background-color: black;
@@ -144,4 +154,5 @@ footer {
     font-size: 12px;
     padding: 20px;
     margin-top: 300px;
+    line-height: 1.5;
 }
