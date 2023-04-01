@@ -217,13 +217,15 @@ input#submit:hover {
         display: flex;
         flex-direction: column;
         width: 80vw;
-        gap: 20px;
+        gap: 40px;
         align-items: center;
         transition: none;
         margin: 5px auto;
     }
     .book img {
         margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
     }
     i.material-icons-outlined {
         font-size: 25px;
